@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Lampel's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Caveat:700|Quicksand" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+</head>
+
+<body class="">
+    <div class="header">
+        <h1 class="title">Jonathan Lampel</h1>
+        <div class="social">
+            <p>
+                <a href="https://www.linkedin.com/in/jonathanlampel/" target="_blank"><i class="fab fa-linkedin-in"></i></a> &nbsp; &nbsp;
+                <a href="https://www.instagram.com/jonlampel/" target="_blank"><i class="fab fa-instagram"></i></a> &nbsp; &nbsp;
+                <a href="https://twitter.com/JonLampel" target="_blank"><i class="fab fa-twitter"></i></a> &nbsp; &nbsp;
+                <a href="mailto:jonathanlampelcg@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+            </p> 
+        </div>
+    </div>
+    <div class="body-content">
+        <div class="gallery" >
+            <!-- Forgotten Temple -->
+            <div class="imagecontainer_large">
+                <!-- Thumbnail -->
+                <a href="#"> <img class="image" id="plants" onClick="open_modal(this.id)" src="media/Plants_feature.png"> </a>
+                <div id="plants_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <!-- Title -->
+                                    <h3 class="modal-title">Forgotten Temple</h3>
+                                </div>
+                                <!-- Content -->
+                                <img width="100%" src="media/Plants_feature.png">
+                                <img width="100%" src="media/Plants_clay.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Soldier-->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="soldier" onClick="open_modal(this.id)" src="media/SciFiSoldier.jpg"> </a>
+                <div id="soldier_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <!-- Title -->
+                                    <h3 class="modal-title">Tomorrow's Enforcer</h3>
+                                </div>
+                                <!-- Content -->
+                                <img width="100%" src="media/SciFiSoldier.jpg">
+                                <img width="100%" src="https://cdnb.artstation.com/p/assets/images/images/003/018/035/large/jonathan-lampel-ip-tomorrowsenforcer-alternateview3.jpg?1468542127">
+                                <img width="100%" src="https://cdnb.artstation.com/p/assets/images/images/003/018/027/large/jonathan-lampel-2016-04-21-11-08-04-blender-c-users-jonat-documents-cg-cookie-3d-artist-sci-fi-soldier3-blend.jpg?1468542080">
+                                <img width="100%" src="https://cdnb.artstation.com/p/assets/images/images/003/018/041/large/jonathan-lampel-ip-tomorrowsenforcer-wireframe.jpg?1468542145">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Cabin -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="cabin" onClick="open_modal(this.id)" src="media/cabin-in-the-woods.jpg"> </a>
+                    <div id="cabin_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Cabin in the Woods</h3>
+                                </div>
+                                <img width="100%" src="media/cabin-in-the-woods.jpg">
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/001/147/176/large/jonathan-lampel-trees-bonus1-1024x576.jpg?1441037928">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="about">
+        
+                <img class="about-image" src="media/profile_01.jpg">
+        
+                <div class="about-text">
+                    <h3>Hi, I’m Jonathan Lampel, a 3D artist living near Seattle. </h3>
+                    <p>I’m currently working as a computer graphics instructor and designer for CG Cookie. I was an Autodesk CG Student Awards winner in 2014 and have been featured in three issues of 3D Artist magazine. </p>
+                    <p>Outside the studio I’m a big fan of hiking, reading, watching movies, writing, and consuming excessive amounts of tea.</p>
+                </div>  
+                
+            </div>
+        
+            <!-- Bots -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="bots" onClick="open_modal(this.id)" src="media/bots-spring-feature_07.jpg"> </a>
+        
+                <div id="bots_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">VonnBots on Vacation</h3>
+                                </div>
+                                <img width="100%" src="media/bots-spring-feature_07.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Coffee -->
+            <div class="imagecontainer_large">
+                <a href="#"> <img class="image" id="coffee" onClick="open_modal(this.id)" src="media/coffee.jpg"> </a>
+                <div id="coffee_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Coffee Time</h3>
+                                </div>
+                                <img width="100%" src="media/coffee.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Snowman -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="snowman" onClick="open_modal(this.id)" src="media/snowman.jpg"> </a>
+                <div id="snowman_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Tiny Snowman</h3>
+                                </div>
+                                <img width="100%" src="media/snowman.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Dragon -->
+            <div class="imagecontainer_tall">
+                <a href="#"> <img class="image" id="dragon" onClick="open_modal(this.id)" src="media/DragonThumbnail.jpg"> </a>
+        
+                <div id="dragon_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Waking the Dragon King</h3>
+                                </div>
+                                <img width="100%" src="media/WakingTheDragonKing.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Book Room -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="room" onClick="open_modal(this.id)" src="media/reading_room.png"></a>
+        
+                <div id="room_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">The Reading Room</h3>
+                                </div>
+                                <img width="100%" src="media/reading_room.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Revolver -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="revolver" onClick="open_modal(this.id)" src="media/revolver.jpg"></a>
+        
+                <div id="revolver_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Rugged Revolver</h3>
+                                </div>
+                                <img width="100%" src="media/revolver.jpg">
+                                <div class="sketchfab-embed-wrapper"><iframe width="100%" height="720" src="https://sketchfab.com/models/78e398909703453e9c8b1f990493e00a/embed?" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/160/050/large/jonathan-lampel-revolver-render.jpg?1522884442">
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/160/054/large/jonathan-lampel-revolver-render-03.jpg?1522884455">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Rocket Launcher -->
+            <div class="imagecontainer_large">
+                <a href="#"> <img class="image" id="rocketlauncher" onClick="open_modal(this.id)" src="https://cdna.artstation.com/p/assets/images/images/010/019/374/large/jonathan-lampel-rocket-exercise-feature.jpg?1522123181"></a>
+        
+                <div id="rocketlauncher_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">First Person Rocket Launcher</h3>
+                                </div>
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/019/374/large/jonathan-lampel-rocket-exercise-feature.jpg?1522123181">
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/019/388/large/jonathan-lampel-rocket-banner-03.jpg?1522123323">
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/019/394/large/jonathan-lampel-c9agf0du0ae7kx.jpg?1522123376">
+                                <img width="100%" src="https://cdnb.artstation.com/p/assets/images/images/010/019/405/large/jonathan-lampel-2018-03-26-21-04-58-blender-c-users-jonathan-desktop-guns-portfolio-blend.jpg?1522123468">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Gyrocopter -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="gyrocopter" onClick="open_modal(this.id)" src="media/gyrocopter.jpg"></a>
+        
+                <div id="gyrocopter_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Game Ready Gyrocopter</h3>
+                                </div>
+                                <img width="100%" src="media/gyrocopter.jpg">
+                                <div class="sketchfab-embed-wrapper"><iframe width="100%" height="720" src="https://sketchfab.com/models/34a72c75fe4745d2bbaa1784ef8e243d/embed?autospin=0.2" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Sniper -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="sniper" onClick="open_modal(this.id)" src="media/sniper.jpg"></a>
+        
+                <div id="sniper_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">First Person Sniper</h3>
+                                </div>
+                                <img width="100%" src="media/sniper.jpg">
+                                <div class="sketchfab-embed-wrapper"><iframe width="100%" height="720" src="https://sketchfab.com/models/821c903965374b9bbda49a86b347debc/embed?autospin=0.2" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/018/750/large/jonathan-lampel-dc8tobjxcaalk-c.jpg?1522119074">
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/018/960/original/jonathan-lampel-rifle-transform.gif?1522120267">
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/019/036/large/jonathan-lampel-2018-03-26-20-24-02-blender-c-users-jonathan-desktop-guns-portfolio-blend.jpg?1522120985">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <!-- Templeton Tonics -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="tonics" onClick="open_modal(this.id)" src="https://cdna.artstation.com/p/assets/images/images/010/018/456/large/jonathan-lampel-atlas-render.jpg?1522117280"></a>
+        
+                <div id="tonics_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Templeton Tonics Label Design</h3>
+                                </div>
+                                <img width="100%" src="https://cdnb.artstation.com/p/assets/images/images/010/018/439/large/jonathan-lampel-compass-render.jpg?1522117136">
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/010/018/456/large/jonathan-lampel-atlas-render.jpg?1522117280">
+                                <img width="100%" src="https://cdnb.artstation.com/p/assets/images/images/010/018/459/large/jonathan-lampel-summit-render.jpg?1522117304">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Ax -->
+            <div class="imagecontainer">
+                <a href="#"> <img class="image" id="ax" onClick="open_modal(this.id)" src="https://cdna.artstation.com/p/assets/images/images/003/128/934/large/jonathan-lampel-ax-feature-blue.jpg?1470064287"></a>
+        
+                <div id="ax_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Low Poly Ax</h3>
+                                </div>
+                                <img width="100%" src="https://cdna.artstation.com/p/assets/images/images/003/128/934/large/jonathan-lampel-ax-feature-blue.jpg?1470064287">
+                                <div class="sketchfab-embed-wrapper"><iframe width="100%" height="720" src="https://sketchfab.com/models/4ef6a1374edc41eebbf75f8e8b5d287c/embed?autospin=0.2" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            <!-- Freedom -->
+            <div class="imagecontainer">
+                <a href="#"><img class="image" id="freedom" onClick="open_modal(this.id)" src="https://cdna.artstation.com/p/assets/images/images/000/856/062/large/jonathan-lampel-freedom-05.jpg?1434643859"></a>
+        
+                <div id="freedom_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Freedom</h3>
+                                </div>
+                                <img src="https://cdna.artstation.com/p/assets/images/images/000/856/062/large/jonathan-lampel-freedom-05.jpg?1434643859">
+                                <img src="https://cdnb.artstation.com/p/assets/images/images/000/856/053/large/jonathan-lampel-closeups.jpg?1434643757">
+                                <img src="https://cdnb.artstation.com/p/assets/images/images/000/856/061/large/jonathan-lampel-clay-front2.jpg?1434643822">
+                                <img src="https://cdnb.artstation.com/p/assets/images/images/000/856/055/large/jonathan-lampel-lighting.jpg?1434643772">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             <!-- market -->
+             <div class="imagecontainer">
+                <a href="#"><img class="image" id="market" onClick="open_modal(this.id)" src="https://cdnb.artstation.com/p/assets/images/images/011/173/673/large/jonathan-lampel-marketsale-spring2018-feature-1k.jpg?1528214696"></a>
+        
+                <div id="market_modal" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">King of the Feast</h3>
+                                </div>
+                                <img src="https://cdnb.artstation.com/p/assets/images/images/011/173/673/large/jonathan-lampel-marketsale-spring2018-feature-1k.jpg?1528214696">
+                                <img src="https://cdna.artstation.com/p/assets/images/images/011/173/578/large/jonathan-lampel-marketsale-spring2018-feature-1ksquare-1.jpg?1528214409">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!--
+            <div class="instagram">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Bocva58n0jU/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Bocva58n0jU/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div><div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Bocva58n0jU/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Jonathan Lampel (@jonlampel)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-10-02T23:25:07+00:00">Oct 2, 2018 at 4:25pm PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+            </div>
+
+            <div class="twitter"> 
+                <a class="twitter-timeline" data-height="720" data-theme="dark" href="https://twitter.com/JonLampel?ref_src=twsrc%5Etfw">Tweets by JonLampel</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            </div>
+            -->
+
+        </div>
+        <script>
+
+            var active_id;
+
+            function open_modal(clicked_id)
+            {
+                active_id = clicked_id;
+                modal_id = clicked_id+"_modal";
+                modal = document.getElementById(modal_id);
+                document.body.classList.toggle('noscroll');
+                modal.style.display = "block";
+            }
+
+            close = document.getElementsByClassName("close");
+            for(var i = 0; i < close.length; i++) {
+                var x = close[i];
+                x.onclick = function() {
+                    modal.style.display = "none";
+                    document.body.classList.toggle('noscroll');
+                    document.getElementById(active_id).scrollIntoView({ behavior: 'smooth'});
+                }
+            }
+    
+            close.onclick = function() {
+                modal.style.display = "none";
+                document.body.classList.toggle('noscroll');
+                document.getElementById(active_id).scrollIntoView({ behavior: 'smooth'});
+            }
+
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                    document.body.classList.toggle('noscroll');
+                    document.getElementById(active_id).scrollIntoView({ behavior: 'smooth'});
+                }
+            }
+        </script>
+    </div>
+
+    
+
+    <div class="footer">
+        <br />
+        <p>Looking for tutorials? Visit me at <a href="https://cgcookie.com/categories/3d/courses?sort_author=606694" target="blank">CG Cookie</a> or <a href="https://www.youtube.com/user/BIenderHD" target="blank">BlenderHD</a></p>
+        <br> 
+        <p> &copy; <span id="year"></span> Jonathan Lampel </p>
+        <br />
+        <script>
+                document.getElementById("year").innerHTML = (new Date()).getFullYear();
+            </script>
+    </div>
+</body>
+
+
+</html>

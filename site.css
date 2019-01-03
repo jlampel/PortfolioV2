@@ -1,0 +1,289 @@
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(35,38,43);
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    margin-top: 10px;
+}
+    h1 a, h1 a:hover {
+        color: white;
+        text-decoration: none;
+    }
+    h1, .title {
+        color: white;
+    }
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: lightgrey;
+}
+img {
+    width: 100%
+}
+.noscroll { 
+    overflow: hidden;
+  }
+::-webkit-scrollbar { 
+    display: none; 
+}
+.social a, .social a:visited {
+    color: grey;
+}
+ .social a:hover {
+        color: white;
+    }
+.modal {
+    display: none;
+    margin: auto;
+    z-index: 50;
+    overflow-y: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+    .modal-content {
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .modal-title {
+        color: white;
+    }
+.close, .close:hover, close:focus {
+    color: white;
+    margin-top: 0px;
+    line-height: normal;
+    opacity: 1;
+    padding: none;
+}
+.footer {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(0,0,0,0.6);
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    overflow: auto;
+}
+
+/* for larger screens */
+@media only screen and (min-width: 800px) {
+    .header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 60px;
+        display: grid;
+        z-index: 100;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: rgba(0,0,0,0.7);
+        -webkit-backdrop-filter: blur(25px);
+        /*box-shadow: 0px 5px 10px rgba(0,0,0,0.5);*/
+    }
+    .modal {
+        width: 102%;
+        padding-top: 60px;
+        -webkit-backdrop-filter: blur(25px);
+        overflow:auto;
+    }
+        .modal-dialog {
+            width: 75%;
+        }
+        .modal-content {
+            background-color: rgba(0,0,0,0);
+        }
+        .modal-header {
+            background-color: rgba(0,0,0,0);
+            border-bottom: none;
+            padding: 0px;
+            margin-top: 0px;
+        }
+        .modal-backdrop {
+            background-color: black;
+        }
+    .body-content {
+        margin-top: 60px;
+    }
+    .social {
+        font-size: 24px;
+        text-align: right;
+        grid-column-start: 2;
+        margin-top: 16px;
+    }
+    .imagecontainer {
+        width: 100%;
+        margin: auto;
+    }
+    .imagecontainer_large {
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+    }
+    .imagecontainer_tall {
+        grid-column-end: span 1;
+        grid-row-end: span 3;
+    }
+    .image {
+        width: 100%;
+        border-radius: 3px;
+    }
+        .image:hover {
+            position: relative;
+            z-index: 10;
+            box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.5);
+        }
+    .gallery {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 0px;
+        align-content: center;
+        padding-bottom: 0px;
+    }
+    .about {
+        grid-column-end: span 3;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 64px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin: auto auto;
+    }
+        .about-text {
+            color: white;
+            grid-column-end: span 2;
+            grid-row-end: span 1;
+            padding-left: 64px;
+            vertical-align: center;
+        }
+        .about-image {
+            width:250px;
+            padding: 16px;
+            margin-left: 64px;
+            border-radius: 50%;
+            grid-column-end: span 1;
+            grid-row-end: span 1;
+            vertical-align: middle;
+        }
+        .twitter {
+            grid-column-end: span 1;
+            grid-row-end: span 3;
+        }
+        .instagram {
+            grid-column-end: span 2;
+            grid-row-end: span 3;
+        }
+}
+
+/* for smaller screens */
+@media only screen and (max-width: 800px) {
+    h3 {
+        font-size: 16px;
+    }
+    .header {
+        text-align: center;
+        background-color: rgba(0,0,0,0.7);
+        -webkit-backdrop-filter: blur(25px);
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        top: 0px;
+        z-index: 100;
+    }
+    .body-content {
+        margin-top: 90px;
+    }
+    .modal {    
+        padding-top: 90px; 
+        width: 102%;
+    }
+        .modal-backdrop {
+            opacity: 1;
+        }
+        .modal-dialog {
+            width: 100%;
+            padding: 0px;
+        }
+        .modal-content {
+            background-color: rgba(0,0,0,0)
+        }
+        .modal-header {
+            background-color: rgba(0,0,0,0.9);
+            border-bottom: none;
+            text-align: left;
+        }
+    .social {
+        text-align: center;
+        font-size: 18px;
+    }
+    .image {
+        width: 100%;
+    }
+    .gallery {
+        text-align: center;
+    }
+    .about {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 64px;
+    }
+    .about-image {
+        width:250px;
+        padding: 16px;
+        margin-left: 64px;
+        border-radius: 50%;
+        grid-column-end: span 1;
+        grid-row-end: span 1;
+        vertical-align: middle;
+    }
+    .about-text {
+        color: white;
+        grid-column-end: span 2;
+        grid-row-end: span 1;
+        padding-left: 64px;
+        vertical-align: center;
+    }
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* styles for specific pages */
+
